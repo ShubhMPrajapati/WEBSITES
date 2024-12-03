@@ -1,0 +1,79 @@
+p{font-family:'Gill Sans', 'Gill Sans MT';}
+      .news{
+         margin-bottom: 0;
+         text-decoration: underline;
+         text-align: center;
+         font-style: italic;
+         font-weight: bold;
+         font-size: 25px;
+         line-height: 25px;
+         transition: font-size 0.15s, opacity 0.15s;
+      }
+      .news:hover{
+         font-size: 27px;
+         opacity: 0.5;
+      }
+
+      .fact{
+         margin-top: 5px;
+         text-align: center;
+         color: rgb(107, 107, 107);
+         font-size: 15px;
+         line-height: 25px;
+
+      }
+      .box{
+         width: 500px;
+         align-items: center;
+         text-align: center;
+      }
+
+      .another{
+         margin: 0;
+         margin-top: 20px;
+         padding: 10px;
+         background-color: rgb(242, 72, 72);
+         color: white;
+         border-radius: 20px;
+         width: 500px;
+         text-align: center;
+         transition: u ;
+         
+      }
+      span{ padding-left: 5px ;
+         color: black;
+         font-style: italic;
+         transition: font-size 0.45s;
+      }
+      span:hover{
+         font-size: 18px;
+         text-decoration: underline;
+
+      }
+
+      .butt{
+      font-size: 15px;
+      border-radius: 15px;
+      margin-top: 5px;
+      background-color: #068585;
+      color: white;
+      border: none;
+      transition: font-size 0.15s, opacity 0.05s, box-shadow 0.3s;
+      padding: 10px;
+      font-weight: bold;
+      }
+
+      .butt:hover{
+         font-size: 20px;
+         box-shadow: 5px 5px 5px rgb(71, 68, 68);
+      }
+
+      .butt:active{
+         opacity: 0.5;
+         font-size: 15px;
+         box-shadow: -5px -5px 5px rgb(71, 68, 68);
+      }
+
+body{
+   background-color: blanchedalmond;
+}
