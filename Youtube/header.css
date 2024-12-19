@@ -1,0 +1,23 @@
+.header{
+   display: flex;
+   justify-content: space-between;
+                  
+   height: 50px;
+  
+}
+
+.left{
+   background-color: blueviolet;
+   width: 200px;
+   margin-right: 70px;
+}
+.middle{
+   background-color: rgb(43, 205, 226);
+   flex: 1;
+   max-width: 500px  ;
+}
+.right{
+   background-color: rgb(43, 226, 73);
+   width: 200px;
+   margin-left: 40px;
+}
